@@ -1,6 +1,6 @@
 import React, { use } from 'react';
 import { useState, useEffect } from 'react';
-import { getAllTasks } from '../../api/client';
+import { getAllTasks } from '../api/client'
 import {Link} from 'react-router-dom';
 // TODO: Replace placeholder values with actual student and lab identifiers
 const STUDENT_ID = '23WH1A0522';
